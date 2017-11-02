@@ -23,8 +23,8 @@ split_data <- function(data, percent_train=0.8){
 
 ## ------------------------------------------------------------------------
 # https://datamarket.com/data/set/22u3/international-airline-passengers-monthly-totals-in-thousands-jan-49-dec-60#!ds=22u3&display=line
-#timeseries <- load_series('international-airline-passengers.csv')
-#print(dim(timeseries))
+timeseries <- load_series('international-airline-passengers.csv')
+print(dim(timeseries))
     
-#plot(ts(timeseries),col='blue')
+plot(ts(timeseries),col='blue')
 
